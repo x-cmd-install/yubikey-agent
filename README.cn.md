@@ -4,13 +4,22 @@
 
 yubikey-agent is a seamless ssh-agent for YubiKeys.
 
-![yubikey-agent](https://repo.x-cmd.io/yubikey-agent.svg)
+![yubikey-agent](https://repo.x-cmd.io/yubikey-agent.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install yubikey-agent
 ```
+
+## 代码规模
+
+合计: **566** 行代码（覆盖前 5 种语言、共 **6** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 566 | 40 | 63 | 4 |
+| Markdown | 0 | 139 | 86 | 2 |
 
 ## 源代码
 
@@ -31,17 +40,26 @@ x install yubikey-agent
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 1 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 2 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 4 | 0 | 9 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 7 | 0 | 10 | 0 |
 
-## 代码规模
+## 发行版状态
 
-合计: **566** 行代码（覆盖前 5 种语言、共 **6** 个文件）。
+在 [repology.org](https://repology.org/project/yubikey-agent) 上共有 **35** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**17** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 566 | 40 | 63 | 4 |
-| Markdown | 0 | 139 | 86 | 2 |
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.1.6` | ✅ latest |
+| Debian 14 | `0.1.6` | ✅ latest |
+| Debian 13 | `0.1.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.1.6` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.1.4` | ⚠️ outdated |
+| Homebrew | `0.1.6` | ✅ latest |
+| Nix unstable | `0.1.6` | ✅ latest |
+| Alpine edge | `0.1.6` | ✅ latest |
 
 ## 改进这些数据
 
@@ -52,4 +70,4 @@ yubikey-agent 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:32:20Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:35:44Z._
