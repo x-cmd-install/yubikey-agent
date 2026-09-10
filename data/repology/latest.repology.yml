@@ -1,0 +1,475 @@
+- repo: raspbian_testing
+  subrepo: main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo-updates/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2ubuntu0.22.04.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: alpine_edge
+  subrepo: testing
+  srcname: yubikey-agent
+  binname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-r23
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - BSD-3-Clause
+- repo: aur
+  srcname: yubikey-agent
+  binname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-1
+  status: newest
+  summary: A seamless ssh-agent for YubiKeys
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - BSD
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - golang
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - misc
+- repo: freebsd
+  srcname: security/yubikey-agent
+  binname: yubikey-agent
+  visiblename: security/yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6_37
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - egypcio@freebsd.org
+  categories:
+    - security
+- repo: homebrew
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys and other PIV tokens
+- repo: homebrew
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Seamless ssh-agent for YubiKeys and other PIV tokens
+- repo: kali_rolling
+  subrepo: main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - misc
+- repo: nix_stable_24_05
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: A seamless ssh-agent for YubiKeys
+  maintainers:
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_24_11
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_05
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_25_11
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_26_05
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_unstable
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - golang
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - misc
+- repo: trisquel_11_0
+  subrepo: aramo-security/main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2ubuntu0.22.04.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2ubuntu0.22.04.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2build1
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-2build1
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - taowa@debian.org
+    - team+pkg-go@tracker.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.4
+  origversion: 0.1.4-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
+  categories:
+    - universe/misc
