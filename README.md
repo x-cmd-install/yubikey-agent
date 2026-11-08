@@ -29,37 +29,22 @@ Total: **566** lines of code across **6** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,913 · **Forks**: 163 · **Open issues**: 118 · **Contributors**: 17
+- **Stars**: 2,914 · **Forks**: 164 · **Open issues**: 118 · **Contributors**: 17
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 17 · **Closed issues**: 61 · **Open issues**: 57 · **Commits**: 58
+- **Releases**: 0 · **Merged PRs**: 20 · **Open PRs**: 18 · **Closed issues**: 61 · **Open issues**: 57 · **Commits**: 58
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-08 | 0 | 0 | 1 | 0 | 1 | 0 |
-| 90d | 2026-08-09 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last180d | 2026-05-11 | 0 | 0 | 1 | 0 | 2 | 0 |
-| 360d | 2025-11-12 | 0 | 0 | 4 | 0 | 8 | 0 |
-| last720d | 2024-11-17 | 0 | 0 | 8 | 0 | 11 | 0 |
-
-## Distribution status
-
-Reported by **33** distros on [repology.org](https://repology.org/project/yubikey-agent). **18** are ✅ on the latest upstream release, **14** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.1.6` | ✅ latest |
-| Debian 14 | `0.1.6` | ✅ latest |
-| Debian 13 | `0.1.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.1.6` | ✅ latest |
-| Ubuntu 24.04 LTS | `0.1.4` | ⚠️ outdated |
-| Homebrew | `0.1.6` | ✅ latest |
-| Nix unstable | `0.1.6` | ✅ latest |
-| Alpine edge | `0.1.6` | ✅ latest |
+| 30d | 2026-10-09 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-09-09 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 90d | 2026-08-10 | 0 | 0 | 2 | 0 | 1 | 0 |
+| last180d | 2026-05-12 | 0 | 0 | 2 | 0 | 2 | 0 |
+| 360d | 2025-11-13 | 0 | 0 | 5 | 0 | 8 | 0 |
+| last720d | 2024-11-18 | 0 | 0 | 9 | 0 | 11 | 0 |
 
 ## Improve this data
 
@@ -70,4 +55,4 @@ Install metadata for yubikey-agent lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:33:59Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:36:56Z._
