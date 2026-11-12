@@ -1,17 +1,27 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: nix_stable_25_05
   srcname: yubikey-agent
-  binnames:
-    - yubikey-agent
   visiblename: yubikey-agent
   version: 0.1.6
-  origversion: 0.1.6-4
+  origversion: null
   status: newest
+  summary: Seamless ssh-agent for YubiKeys
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - taowa@debian.org
-  categories:
-    - misc
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_24_11
+  srcname: yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: null
+  status: newest
+  summary: Seamless ssh-agent for YubiKeys
+  maintainers:
+    - philip.g.potter@gmail.com
+    - david.andrew.mckay@gmail.com
+  licenses:
+    - BSD-3-Clause
 - repo: alpine_edge
   subrepo: testing
   srcname: yubikey-agent
@@ -129,7 +139,7 @@
   binname: yubikey-agent
   visiblename: security/yubikey-agent
   version: 0.1.6
-  origversion: 0.1.6_39
+  origversion: 0.1.6_40
   status: newest
   summary: Seamless ssh-agent for YubiKeys
   maintainers:
@@ -176,30 +186,6 @@
     - david.andrew.mckay@gmail.com
   licenses:
     - BSD-3-Clause
-- repo: nix_stable_24_11
-  srcname: yubikey-agent
-  visiblename: yubikey-agent
-  version: 0.1.6
-  origversion: null
-  status: newest
-  summary: Seamless ssh-agent for YubiKeys
-  maintainers:
-    - philip.g.potter@gmail.com
-    - david.andrew.mckay@gmail.com
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_25_05
-  srcname: yubikey-agent
-  visiblename: yubikey-agent
-  version: 0.1.6
-  origversion: null
-  status: newest
-  summary: Seamless ssh-agent for YubiKeys
-  maintainers:
-    - philip.g.potter@gmail.com
-    - david.andrew.mckay@gmail.com
-  licenses:
-    - BSD-3-Clause
 - repo: nix_stable_25_11
   srcname: yubikey-agent
   visiblename: yubikey-agent
@@ -237,7 +223,7 @@
   licenses:
     - BSD-3-Clause
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: yubikey-agent
   binnames:
     - yubikey-agent
@@ -252,7 +238,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: yubikey-agent
   binnames:
     - yubikey-agent
@@ -309,6 +295,20 @@
     - pkg-auth-maintainers@lists.alioth.debian.org
     - taowa@debian.org
     - team+pkg-go@tracker.debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: yubikey-agent
+  binnames:
+    - yubikey-agent
+  visiblename: yubikey-agent
+  version: 0.1.6
+  origversion: 0.1.6-4
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - taowa@debian.org
   categories:
     - misc
 - repo: ubuntu_22_04
